@@ -71,8 +71,8 @@ re: fclean all
 
 .PHONY: all clean fclean re bonus
 
-#$@ - the command which starts this rool, the target file for it - $(NAME)
-#$^ - all the dependencies for that rool - $(OBJ_P)
-#$< - to do for each dependency separately, with the corresponing src file
+#$@ means the command which starts this rool, the target file for it - $(NAME)
+#$^ means all the dependencies for that rool - $(OBJ_P)
+#$< means to do for each dependency separately, with the corresponing src file
 
 # .PHONY: means that these name of the commands need to be executed even if files with the same names happen to exist in the directory
