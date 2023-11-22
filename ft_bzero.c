@@ -6,12 +6,14 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 15:58:50 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/16 16:12:16 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/11/17 14:37:22 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <stdio.h>
 // #include <string.h>
+// #include <stddef.h>
+#include "libft.h"
 
 void	ft_bzero(void *p, size_t len)
 {

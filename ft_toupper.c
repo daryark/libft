@@ -6,10 +6,9 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 02:27:01 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/16 02:39:33 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/11/17 14:28:31 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 // #include <stdio.h>
 // #include <ctype.h>

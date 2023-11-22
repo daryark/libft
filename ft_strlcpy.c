@@ -1,41 +1,46 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/15 22:39:43 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/17 20:07:15 by dyarkovs         ###   ########.fr       */
+/*   Created: 2023/11/21 19:49:19 by dyarkovs          #+#    #+#             */
+/*   Updated: 2023/11/22 00:42:18 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 // #include <stdio.h>
 // #include <string.h>
-#include "libft.h"
 
-size_t	ft_strlen(const char *s)
+size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	i;
 
 	i = 0;
-	while (s[i])
+	if (size > 0)
+	{
+		while (--size && src[i])
+		{
+			dst[i] = src[i];
+			i++;
+		}
+		dst[i] = '\0';
+	}
+	i = 0;
+	while (src[i])
 		i++;
 	return (i);
 }
 
 // int	main(void)
 // {
-// 	printf("\nnative: %lu\n", strlen("3"));
-// 	printf("my: %lu\n\n", ft_strlen("3"));
-// 	printf("native: %lu\n", strlen("aluflu"));
-// 	printf("my: %lu\n\n", ft_strlen("aluflu"));
-// 	printf("native: %lu\n", strlen(""));
-// 	printf("my: %lu\n\n", ft_strlen(""));
-// 	printf("native: %lu\n", strlen("\n\t"));
-// 	printf("my: %lu\n\n", ft_strlen("\n\t"));
+// 	char	dst[20];
+// 	char	dst2[20];
+// 	char	*src = "hello world";
+
+// 	printf("original: %lu\n", strlcpy(dst2, src, 12));
+// 	printf("my: %lu\n", ft_strlcpy(dst, src, 12));
 // 	return (0);
 // }
-
-//size_t is a type of unsigned long, that is recognized
-// with no typedef and used in some fncs.

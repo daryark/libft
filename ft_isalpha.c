@@ -6,14 +6,14 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 17:08:14 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/16 02:03:09 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/11/17 20:22:30 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <stdio.h>
 // #include <ctype.h>
 
-int	ft_isalpha(char c)
+int	ft_isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z')
 		|| (c >= 'A' && c <= 'Z'));

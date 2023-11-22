@@ -11,11 +11,13 @@ RESET_COLOR = \033[0m
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar rcs $^ $@ 
-
-$(OBJS): $(SRCS)
-	cc $(CFLAGS) -c $< -o $@
+	ar rcs $@ $^
 	@echo "$(GREEN)Compiled successfully :)$(RESET_COLOR)"
+
+#! 👇 WHY DO WE NEED THIS PART IF EVRTH WORKS WITHOUT IT ???
+# $(OBJS): $(SRCS)
+# 	cc $(CFLAGS) -c $< -o $@
+
 	
 #$@ means the command which starts this rool, the target file for it - $(NAME)
 #$^ means all the dependencies for that rool - $(OBJS)

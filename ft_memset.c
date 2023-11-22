@@ -6,12 +6,13 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 00:17:32 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/16 18:09:38 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/11/17 14:37:50 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <stdio.h>
 // #include <string.h>
+#include "libft.h"
 
 void	*ft_memset(void *p, int c, size_t len)
 {

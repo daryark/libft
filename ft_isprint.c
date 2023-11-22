@@ -6,16 +6,16 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 22:31:46 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/16 02:04:59 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/11/17 20:27:23 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <stdio.h>
 // #include <ctype.h>
 
-int	ft_isprint(unsigned char c)
+int	ft_isprint(int c)
 {
-	return (c > 31);
+	return (c > 31 && c < 127);
 }
 
 // int	main(void)
