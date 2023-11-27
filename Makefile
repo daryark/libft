@@ -12,7 +12,7 @@ all: $(NAME)
 
 $(NAME): $(OBJS)
 	ar rcs $@ $^
-	@echo "$(GREEN)Compiled successfully :)$(RESET_COLOR)"
+	@echo "$(GREEN)Compiled successfully 🎉 !!$(RESET_COLOR)"
 
 #! 👇 WHY DO WE NEED THIS PART IF EVRTH WORKS WITHOUT IT ???
 # $(OBJS): $(SRCS)
