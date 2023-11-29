@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 14:21:49 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/27 01:20:16 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/11/29 18:48:33 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,14 +42,15 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n);
 char	*ft_strnstr(const char *src, const char *srch, size_t len);
 int		ft_atoi(const char *str);
 
-// void	*ft_calloc(size_t count, size_t size);
-//strdup
+void	*ft_calloc(size_t count, size_t size);
+char	*ft_strdup(const char *s1);
 
 //
-//ft_substr
-//ft_strjoin
-//ft_strtrim
-//ft_split
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strtrim(char const *s1, char const *set);
+char	**ft_split(char const *s, char c);
+// int	ft_split(char const *s, char c);
 //ft_itoa
 //ft_strmapi
 //ft_striteri
