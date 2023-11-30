@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 14:21:49 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/29 18:48:33 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/11/30 03:37:05 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,12 @@
 
 # include <stdio.h>
 # include <string.h>
+
+typedef struct s_lens
+{
+	int	c_amount;
+	int	s_len;
+}	t_lens;
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int n);
