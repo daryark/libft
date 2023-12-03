@@ -6,11 +6,13 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/03 02:11:35 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/12/03 02:23:18 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/03 03:02:39 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// void	ft_putchar_fd(char c, int fd)
-// {
-    
-// }
+#include "libft.h"
+
+void	ft_putchar_fd(char c, int fd)
+{
+	write (fd, &c, 1);
+}
