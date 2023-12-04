@@ -6,32 +6,12 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 03:58:20 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/12/03 00:25:52 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/04 14:19:47 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 // #include <limits.h>
-
-// void	ft_bzero(void *p, size_t len)
-// {
-// 	size_t	i;
-
-// 	i = 0;
-// 	while (i < len)
-// 		*(unsigned char *)(p + i++) = '\0';
-// }
-
-// void	*ft_calloc(size_t count, size_t size)
-// {
-// 	void	*p;
-
-// 	p = (void *)malloc(size * count);
-// 	if (!p)
-// 		return (NULL);
-// 	ft_bzero(p, (count * size));
-// 	return (p);
-// }
 
 static int	ft_num_len(int n, int sign)
 {
