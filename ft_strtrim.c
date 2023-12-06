@@ -6,13 +6,13 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 16:08:35 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/29 14:18:52 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/06 00:20:18 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_start(char const *s, char const *set)
+static int	ft_start(char const *s, char const *set)
 {
 	int	start;
 	int	j;
@@ -32,7 +32,7 @@ int	ft_start(char const *s, char const *set)
 	return (start);
 }
 
-int	ft_end(char const *s, char const *set, int start)
+static int	ft_end(char const *s, char const *set, int start)
 {
 	int	end;
 	int	j;
