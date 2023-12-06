@@ -9,7 +9,7 @@ SRCS = 	ft_calloc.c		ft_isdigit.c	ft_memcmp.c		ft_putchar_fd.c	ft_split.c  \
 		ft_striteri.c	ft_strlen.c		ft_strrchr.c	ft_memmove.c 
 OBJS = $(SRCS:.c=.o)
 BONUS = ft_lstnew.c		ft_lstadd_front.c	ft_lstsize.c	ft_lstlast.c ft_lstadd_back.c \
-		ft_lstdelone.c	ft_lstclear.c		
+		ft_lstdelone.c	ft_lstclear.c		ft_lstiter.c	ft_lstmap.c
 BONUS_OBJS = $(BONUS:.c=.o);
 
 GREEN = \033[0;92m
