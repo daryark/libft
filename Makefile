@@ -18,13 +18,13 @@ RESET_COLOR = \033[0m
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar -rcs $@ $(OBJS)
+	@ar -rcs $@ $(OBJS)
 	@echo "$(GREEN)Compiled successfully ! 🎉$(RESET_COLOR)"
 
 $(OBJS) : $(SRCS)
 
 bonus: $(OBJS) $(BONUS_OBJS)
-	ar -rcs $(NAME) $^
+	@ar -rcs $(NAME) $^
 	@echo "$(GREEN)Compiled with bonus !! 🎉🎉$(RESET_COLOR)"
 
 
