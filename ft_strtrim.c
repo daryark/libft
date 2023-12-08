@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 16:08:35 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/12/08 15:29:02 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:57:01 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 	int		end;
 	int		i;
 
+	if (!s1 || !set)
+		return (NULL);
 	start = ft_start(s1, set);
 	end = ft_end(s1, set, start);
 	buffer = (char *)malloc(sizeof(char) * ((end - start + 1) + 1));

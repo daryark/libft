@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/03 00:26:33 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/12/03 02:08:28 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 16:02:44 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	char			*buf;
 	unsigned int	i;
 
+	if (!s || !f)
+		return (NULL);
 	buf = (char *)ft_calloc(sizeof(char), (ft_strlen(s) + 1));
 	if (!buf)
 		return (NULL);
