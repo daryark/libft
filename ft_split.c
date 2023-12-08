@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/29 14:19:52 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/30 03:50:17 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:09:14 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,35 +79,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (buffer);
 }
-
-// int	main(void)
-// {
-// 	int			i;
-// 	char		**r;
-
-// 	// r = ft_split("Hello,world,this,is,an,example", ',');
-// 	// r = ft_split("                  olol", ' ');
-// 	// r = ft_split("Hello,", ',');
-// 	// printf("\n\n");
-// 	// r = ft_split("          ", ' ');
-// 	// r = ft_split("   adipiscing elit. Sed non. Suspendisse   ", ' ');
-// 	// r = ft_split("Sed non risus. Cras mi.", 'i');
-// 	r = ft_split("lorem ipsum dolor sit amet,  mi.", 'z');
-// 	// r = ft_split("", 'z');
-// 	// r = ft_split("\0aa\0bbb", '\0');
-// 	if (r)
-// 	{
-// 		i = 0;
-// 		while (r[i])
-// 		{
-// 			printf("_%s_\n", r[i]);
-// 			i++;
-// 		}
-// 		free(r);
-// 	}
-// 	else
-// 	{
-// 		printf("Error splitting the string.\n");
-// 	}
-// 	return (0);
-// }

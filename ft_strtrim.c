@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 16:08:35 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/12/06 00:20:18 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:29:02 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,10 +74,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	buffer[i] = '\0';
 	return (buffer);
 }
-
-// int	main(void)
-// {
-// 	printf("result: %s\n\n", ft_strtrim("letatbtt", "tel"));
-// 	printf("result: %s\n\n", ft_strtrim("     ", " "));
-// 	return (0);
-// }

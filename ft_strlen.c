@@ -6,12 +6,10 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 22:39:43 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/12/03 00:23:27 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:10:34 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
-// #include <string.h>
 #include "libft.h"
 
 size_t	ft_strlen(const char *s)
@@ -24,18 +22,5 @@ size_t	ft_strlen(const char *s)
 	return (i);
 }
 
-// int	main(void)
-// {
-// 	printf("\nnative: %lu\n", strlen("3"));
-// 	printf("my: %lu\n\n", ft_strlen("3"));
-// 	printf("native: %lu\n", strlen("aluflu"));
-// 	printf("my: %lu\n\n", ft_strlen("aluflu"));
-// 	printf("native: %lu\n", strlen(""));
-// 	printf("my: %lu\n\n", ft_strlen(""));
-// 	printf("native: %lu\n", strlen("\n\t"));
-// 	printf("my: %lu\n\n", ft_strlen("\n\t"));
-// 	return (0);
-// }
-
 //size_t is a type of unsigned long, that is recognized
-// with no typedef and used in some fncs.
+// with no type definition and used in some fncs.

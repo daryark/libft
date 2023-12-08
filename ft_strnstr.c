@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/26 15:24:46 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/27 00:57:18 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:10:41 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,12 +33,3 @@ char	*ft_strnstr(const char *src, const char *srch, size_t len)
 	}
 	return (NULL);
 }
-
-// int	main(void)
-// {
-// 	printf("orig: %s\n", strnstr("lorem ipsum dolor sit amet", "dolor", 15));
-// 	printf("my: %s\n\n", ft_strnstr("lorem ipsum dolor sit amet", "dolor", 15));
-// 	printf("original: %s\n", strnstr("hello brbrother", "", 0));
-// 	printf("my: %s\n\n", ft_strnstr("hello brbrother", "", 0));
-// 	return (0);
-// }

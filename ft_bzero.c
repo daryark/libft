@@ -6,13 +6,10 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 15:58:50 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/17 14:37:22 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:02:40 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
-// #include <string.h>
-// #include <stddef.h>
 #include "libft.h"
 
 void	ft_bzero(void *p, size_t len)
@@ -23,25 +20,6 @@ void	ft_bzero(void *p, size_t len)
 	while (i < len)
 		*(unsigned char *)(p + i++) = '\0';
 }
-
-// int	main(void)
-// {
-// 	char	str[10];
-
-// 	bzero(str, 5);
-// 	printf("\nnative: %d\n", (int)str[0]);
-
-// 	ft_bzero(str, 5);
-// 	printf("my: %d\n\n", (int)str[0]);
-
-// 	bzero(str, sizeof(str));
-// 	printf("native: %sd\n", (int)str[9]);
-
-// 	ft_bzero(str, sizeof(str));
-// 	printf("my: %d\n\n", (int)str[9]);
-
-// 	return (0);
-// }
 
 //void pointer is used to say 'any type', used in function where
 // we wanna refer to a memory in more general sense, than some specific type

@@ -6,12 +6,11 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 03:58:20 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/12/06 00:18:40 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:05:42 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <limits.h>
 
 static int	ft_num_len(int n, int sign)
 {
@@ -62,16 +61,3 @@ char	*ft_itoa(int n)
 	}
 	return (buf);
 }
-
-// int	main(void)
-// {
-// 	printf("result: %s\n", ft_itoa(-351));
-// 	printf("result: %s\n", ft_itoa(351));
-// 	printf("result: %s\n", ft_itoa(-2147483648));
-// 	printf("result: %s\n", ft_itoa(INT_MIN));
-// 	printf("result: %s\n", ft_itoa(INT_MAX));
-// 	printf("result: %s\n", ft_itoa(1));
-// 	printf("result: %s\n", ft_itoa(-3));
-// 	printf("result: %s\n", ft_itoa(0));
-// 	return (0);
-// }

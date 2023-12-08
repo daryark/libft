@@ -6,13 +6,11 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 18:43:02 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/21 21:16:37 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:08:03 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
-// #include <string.h>
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
@@ -38,37 +36,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (d);
 }
-
-// int main() {
-// 	char src[] = "Hello, Memmove!";
-// 	char dest[50];
-
-// 	// ft_memmove(dest, src, sizeof(src));
-// 	// printf("Source: %s\n", src);
-// 	// printf("Destination: %s\n", dest);
-
-// 	// ft_memmove(dest, src, 10);
-// 	// printf("Source: %s\n", src);
-// 	// printf("Destination, src before dst: %s\n\n", dest);
-
-// 	ft_memmove(src, dest, 10);
-// 	printf("Source: %s\n", src);
-// 	printf("Destination, src after dst: %s\n\n", dest);
-
-// 	char src2[] = "Hello, Memmove!";
-// 	char dest2[50];
-
-// 	// memmove(dest2, src2, sizeof(src));
-// 	// printf("Source: %s\n", src);
-// 	// printf("Destination: %s\n", dest);
-
-// 	// memmove(dest2, src2, 10);
-// 	// printf("Source: %s\n", src);
-// 	// printf("Destination, src before dst: %s\n\n", dest);
-
-// 	memmove(src2, dest2, 10);
-// 	printf("Source: %s\n", src2);
-// 	printf("Destination, src after dst: %s\n\n", dest2);
-
-// 	return 0;
-// }

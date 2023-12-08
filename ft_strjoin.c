@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 15:08:35 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/28 16:06:05 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:15:18 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	buffer[i] = '\0';
 	return (buffer);
 }
-
-// int	main(void)
-// {
-// 	printf("%s\n", ft_strjoin("lorem ipsum ", "dolor sit amet"));
-// 	printf("%s\n", ft_strjoin("", "dolor sit amet"));
-// 	printf("%s\n", ft_strjoin("lorem ipsum ", ""));
-// }

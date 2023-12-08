@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 03:26:42 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/12/06 13:58:09 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/12/08 15:06:44 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,9 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	return (output_l);
 }
 
-// ?f: The address of the function used to iterate on the list. 
-//?(function that does smth on each element of the list, 
-//? each single el need to be passed on one iteration)
+//f: The address of the function used to iterate on the list. 
+//(function that does smth on each element of the list, 
+//each single el need to be passed on one iteration)
+
 // del: The address of the function used to delete
 // the content of a node if needed.
