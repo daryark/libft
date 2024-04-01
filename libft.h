@@ -6,7 +6,7 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 14:21:49 by dyarkovs          #+#    #+#             */
-/*   Updated: 2024/03/15 10:48:51 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2024/04/01 20:32:39 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-//comparative
+//comparative and int
 int			ft_isalpha(int c);
 int			ft_isdigit(int n);
 int			ft_isalnum(int n);
@@ -24,6 +24,7 @@ int			ft_isprint(int c);
 int			ft_tolower(int c);
 int			ft_toupper(int c);
 int			ft_abs(int n);
+void		ft_swap(int *a, int *b);
 //str
 size_t		ft_strlen(const char *s);
 void		*ft_memset(void *p, int c, size_t len);
